@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://jsonplaceholder.typicode.com",
+    "requestTimeout": 20000,
+    "defaultCommandTimeout": 10000,
+    "video": false,
+    "integrationFolder": "cypress/api-tests",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    },
+    "retries": {
+        "runMode": 1,
+        "openMode": 0
+    }
+}

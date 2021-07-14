@@ -1,0 +1,32 @@
+{
+  "name": "assignment-mobiquity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:open": "./node_modules/cypress/bin/cypress open",
+    "tests:run": "./node_modules/cypress/bin/cypress run",
+    "report:generate": "mochawesome-merge ./reports/results/json/*.json > ./reports/results/mochawesome-bundle.json | marge reports/results/mochawesome-bundle.json -o reports/html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuzana-m/assignment-mobiquity.git"
+  },
+  "author": "Zuzana Mihalyiova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuzana-m/assignment-mobiquity/issues"
+  },
+  "homepage": "https://github.com/zuzana-m/assignment-mobiquity#readme",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=13"
+  }
+}
