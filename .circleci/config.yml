@@ -30,6 +30,6 @@ jobs:
           path: /cypress/reports/results/json/mochawesome.json
 
 workflows:
-  assigment-mobiquirt-main:
+  assigment-mobiquity-main:
     jobs:
       - make-test-generate-report
