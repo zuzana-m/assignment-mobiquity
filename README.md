@@ -24,13 +24,19 @@ The skeleton of the project if the basic skeleton provided by Cypress.js with sm
 ## Run Cypress tests
 `npm run test:run` to run tests in CLI\
 `npm run tests:open` to run tests in Cypress test runner\
+Test run using tests:open:
+![Screenshot](img/screenshot 2021-07-18 o 12.32.24.png)
 
 ## Generating test report
 `npm run report:generate` to generate html test report with test results\
+Report looks like this:
+![Screenshot](img/screenshot 2021-07-18 o 12.30.48.png)
 
 ## Docker
 
 ## CircleCI
+CircleCI setup is located in `.circleci/config.yml` file. Pipeline runs tests in headless mode in CLI. After tests are executed, a report is generated and saved into artifacts. 
+![Screenshot](img/screenshot 2021-07-18 o 12.30.48.png)
 
 
 ## Possible improvements
