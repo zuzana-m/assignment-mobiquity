@@ -34,6 +34,8 @@ describe('Comments test', () => {
                                 expect(comment.name).to.be.a('string').that.is.not.empty;
                                 //check that the service returned comments with correct id
                                 expect(comment.postId).to.eq(post.id);
+                                //check that comment has 5 properties
+                                expect(Object.keys(comment).length).to.eq(5);
                             })
                         });
                     });
