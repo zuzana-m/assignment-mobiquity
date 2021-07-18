@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:open": "./node_modules/cypress/bin/cypress open",
-    "test:run": "./node_modules/cypress/bin/cypress run",
-    "report:generate": "mochawesome-merge ./reports/results/json/*.json > ./reports/results/mochawesome-bundle.json | marge reports/results/mochawesome-bundle.json -o reports/html"
+    "test:run": "./node_modules/cypress/bin/cypress run --headless",
+    "report:generate": "mochawesome-merge /cypress/reports/results/json/*.json > /cypress/reports/results/json/mochawesome-bundle.json && marge /cypress/reports/results/json/mochawesome-bundle.json -o /cypress/reports/results/json"
   },
   "repository": {
     "type": "git",
