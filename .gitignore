@@ -109,5 +109,3 @@ cypress/screenshots/
 
 #Generated reports
 reports/
-
-package-lock.json
