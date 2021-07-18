@@ -29,13 +29,12 @@ The skeleton of the project if the basic skeleton provided by Cypress.js with sm
 `npm run test:run` to run tests in CLI\
 `npm run test:open` to run tests in Cypress test runner\
 Test run using tests:open:\
-![Screenshot](/img/screenshot 2021-07-18 o 12.32.24.png)
+<img width="984" alt="screenshot 2021-07-18 o 12 32 24" src="https://user-images.githubusercontent.com/43915675/126068908-fa556d48-f8fd-4707-8bcb-cb1705d70999.png">
 
 ### Generating test report
 `npm run report:generate` to generate html test report with test results\
 Report looks like this:\
-
-![Screenshot](/img/screenshot 2021-07-18 o 12.30.48.png)
+<img width="984" alt="screenshot 2021-07-18 o 12 30 48" src="https://user-images.githubusercontent.com/43915675/126068917-9f4b9fb0-38e7-4dd8-ab44-99444218b31b.png">
 
 ## Docker
 For running test on crossplatform I chose to use docker solution. 
@@ -53,8 +52,7 @@ If you like to execute tests locally using docker, please follow commands below:
 
 ## CircleCI
 CircleCI setup is located in `.circleci/config.yml` file. Pipeline runs tests in headless mode in CLI. After tests are executed, a report is generated and saved into artifacts.\
-
-![Screenshot](/img/screenshot 2021-07-18 o 12.30.48.png)
+<img width="1430" alt="screenshot 2021-07-18 o 12 33 05" src="https://user-images.githubusercontent.com/43915675/126068931-2fed315e-bcce-4762-804f-e3bfe4ab3cc3.png">
 
 ## Possible improvements
 To make this project usable for real testing I would do following changes:
