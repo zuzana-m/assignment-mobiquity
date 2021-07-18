@@ -19,7 +19,7 @@ jobs:
             - ~/.npm
       - run:
           name: Run Tests
-          command: npm run tests:run
+          command: npm run test:run
       - run:
           name: Generate rports
           command: npm run report:generate
