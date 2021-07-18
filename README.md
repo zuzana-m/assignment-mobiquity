@@ -39,7 +39,7 @@ Report looks like this:
 ## CircleCI
 CircleCI setup is located in `.circleci/config.yml` file. Pipeline runs tests in headless mode in CLI. After tests are executed, a report is generated and saved into artifacts. 
 
-![Screenshot](./img/screenshot 2021-07-18 o 12.30.48.png)
+![plot](./img/screenshot 2021-07-18 o 12.30.48.png)
 
 ## Possible improvements
 To make this project usable for real testing I would following changes:
